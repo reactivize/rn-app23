@@ -21,7 +21,8 @@ react-native run-android
 #turn on live reload...
 # avd -> ctrl-m -> Enable Live reload
 
-#make code changes then refresh page
+#make code changes, then save your page to see the changes
+#... or manually refresh the mobile simulator...
 # avd -> rr
 #wait about 5 seconds
 
