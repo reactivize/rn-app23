@@ -30,11 +30,11 @@ class AwesomeProject0723b extends Component {
         <View style={styles.container}>
 
           <StatusBar
-            backgroundColor="red"
+            backgroundColor="mistyrose"
             barStyle="light-content"
             />
 
-          <Text>2nd time</Text>
+          <Text>7th time</Text>
 
           <Welcome />
 
