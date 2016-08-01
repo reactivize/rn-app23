@@ -30,8 +30,11 @@ class abcrn extends Component {
           onPress={() => this.setState({ selectedTab: 'tab1' }) }>
 
           <AppNavigator
-            initialRoute={{ ident: "PeopleIndex" }} />
+            initialRoute={{ ident: 'PeopleIndex' }}
+          />
         </Icon.TabBarItemIOS>
+
+
 
         <Icon.TabBarItemIOS
           selected={this.state.selectedTab === 'tab2'}
@@ -44,7 +47,9 @@ class abcrn extends Component {
               ident: "PersonShow",
               person: { firstName: 'joe', lastName: 'sixpack', roomNumber: 30 }
             }} />
+
         </Icon.TabBarItemIOS>
+
 
       </TabBarIOS>
     );
