@@ -10,21 +10,23 @@
 #install npm modules
 npm i
 
-#run tests (comming soon)
+#run tests (coming soon)
 npm t
 
 #load up your mobile device simulator, eg AVD for Android Studio
+# or plug your device into the computer usb port
 
 react-native run-android
 #wait about 5 minutes
 
-#turn on live reload...
-# avd -> ctrl-m -> Enable Live reload
+#turn on hot reload...
+# avd -> ctrl-m -> Enable hot reload
 
 #make code changes, then save your page to see the changes
 #... or manually refresh the mobile simulator...
 # avd -> rr
 #wait about 5 seconds
+
 
 
 
