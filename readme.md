@@ -19,6 +19,8 @@ npm t
 #load up your mobile device simulator, eg AVD for Android Studio
 # or plug your device into the computer usb port
 
+#note: the above steps are one-time setup only.
+
 react-native run-android
 #wait about 5 minutes
 
