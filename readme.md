@@ -5,7 +5,7 @@
 ```bash
 
 #clone this project
-git clone git@github.com:reactivize/rn-app23.git
+git clone https://github.com/reactivize/rn-app23.git
 
 #cd into the root directory
 cd rn-app23
